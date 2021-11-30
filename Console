@@ -1,0 +1,52 @@
+weather  = 
+
+[{…}]
+0:
+EpochTime: 1637289420
+HasPrecipitation: false
+IsDayTime: false
+Link: "http://www.accuweather.com/en/ba/marica/1672452/current-weather/1672452?lang=en-us"
+LocalObservationDateTime: "2021-11-19T03:37:00+01:00"
+MobileLink: "http://www.accuweather.com/en/ba/marica/1672452/current-weather/1672452?lang=en-us"
+PrecipitationType: null
+Temperature:
+Imperial: {Value: 31, Unit: 'F', UnitType: 18}
+Metric: {Value: -0.3, Unit: 'C', UnitType: 17}
+[[Prototype]]: Object
+WeatherIcon: 34
+WeatherText: "Mostly clear"
+[[Prototype]]: Object
+length: 1
+[[Prototype]]: Array(0)
+
+
+
+//////////   
+
+
+
+ cityDetails 
+
+ {Version: 1, Key: '1672452', Type: 'City', Rank: 600, LocalizedName: 'Marica', …}
+AdministrativeArea: {ID: 'SRP', LocalizedName: 'Serb Republic', EnglishName: 'Serb Republic', Level: 1, LocalizedType: 'First-Order Administrative Division', …}
+Country: {ID: 'BA', LocalizedName: 'Bosnia and Herzegovina', EnglishName: 'Bosnia and Herzegovina'}
+DataSets: (8) ['AirQualityCurrentConditions', 'AirQualityForecasts', 'Alerts', 'DailyPollenForecast', 'ForecastConfidence', 'FutureRadar', 'MinuteCast', 'Radar']
+EnglishName: "Marica"
+GeoPosition: {Latitude: 44.592, Longitude: 17.684, Elevation: {…}}
+IsAlias: false
+Key: "1672452"
+LocalizedName: "Marica"
+PrimaryPostalCode: ""
+Rank: 600
+Region: {ID: 'EUR', LocalizedName: 'Europe', EnglishName: 'Europe'}
+SupplementalAdminAreas: []
+TimeZone:
+Code: "CET"
+GmtOffset: 1
+IsDaylightSaving: false
+Name: "Europe/Sarajevo"
+NextOffsetChange: "2022-03-27T01:00:00Z"
+[[Prototype]]: Object
+Type: "City"
+Version: 1
+[[Prototype]]: Object
