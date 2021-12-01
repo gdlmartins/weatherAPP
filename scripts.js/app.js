@@ -33,20 +33,12 @@ const updateDom = ({ cityDetails, weather }) => {
   if (card.classList.contains("d-none")) card.classList.remove("d-none");
 };
 
-const updateCity = async (city) => {
-  const cityDetails = await getCity(city);
-  console.log(cityDetails.Key);
-  const weather = await getWeather(cityDetails.Key);
-
-  return { cityDetails, weather };
-};
-
 const submitHandler = (e) => {
   e.preventDefault();
   const city = changeLocation.city.value.trim();
   changeLocation.reset();
 
-  updateCity(city)
+  Forecast.updateCity(city)
     .then((data) => updateDom(data))
     .catch((err) => console.log(err));
 
